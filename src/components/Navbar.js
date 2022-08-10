@@ -34,7 +34,7 @@ export default function Navbar({darkMode, handleClick}) {
     const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
 
     return (
-        <Box component={'nav'} width={'100%'} padding={2.5}>
+        <Box component={'nav'} width={'100%'} paddingtop={2.5}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                  gap={{xs: '2rem', md: '8rem'}}
                  textTransform={'lowercase'} fontSize={'1rem'}>
