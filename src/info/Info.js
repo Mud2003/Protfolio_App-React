@@ -110,13 +110,13 @@ export const info = {
         },
         {
             title: "Project 2",
-            live: "#",
+            live: "https://resonant-queijadas-1e21b8.netlify.app/",
             source: "#",
             image: mock1
         },
         {
             title: "Project 3",
-            live: "#",
+            live: "https://virtualbankreactfrontend.netlify.app/",
             source: "#",
             image: mock1
         },
